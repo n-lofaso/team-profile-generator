@@ -13,13 +13,13 @@ describe('Get', () => {
     expect(testEmployee.getId()).toBe(employeeId);
   });
 
-  it('can get email of employee', () => {
+  it('albe to get email of employee', () => {
     const employeeEmail = 'bob@gmail.com';
     const testEmployee = new Employee('bob', 2, 'bob@gmail.com');
     expect(testEmployee.getEmail()).toBe(employeeEmail);
   });
 
-  it('can get role', () => {
+  it('able to get role', () => {
     const employeeRole = 'Employee';
     const testEmployee = new Employee('bob', 2, 'bob@gmail.com');
     expect(testEmployee.getRole()).toBe(employeeRole);

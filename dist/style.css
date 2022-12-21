@@ -1,0 +1,13 @@
+h1 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(1, 177, 110);
+}
+
+.text-center {
+    text-align: center;
+}
